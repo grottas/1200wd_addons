@@ -47,10 +47,6 @@ class DeliveryServiceLevelTime(models.Model):
              " configuration."
     )
     description = fields.Char(size=256, string="Description")
-    pre_book = fields.Boolean(
-        string="Available for pre-booking",
-        default=False,
-    )
 
 
 class TranssmartCostCenter(models.Model):

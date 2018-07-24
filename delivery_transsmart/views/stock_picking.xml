@@ -45,7 +45,6 @@
                     <field
                         name="delivery_service_level_time_id" 
                         attrs="{'readonly':['|',('carrier_id', '!=', False),('transsmart_confirmed','=',True)]}" 
-                        domain="[('pre_book','=',True)]"
                         />
                     <field
                         name="cost_center_id"

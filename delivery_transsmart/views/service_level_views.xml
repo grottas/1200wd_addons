@@ -58,7 +58,6 @@
                     <field name="code"/>
                     <field name="transsmart_id"/>
                     <field name="description"/>
-                    <field name="pre_book"/>
                 </tree>
             </field>
         </record>
@@ -73,7 +72,6 @@
                         <field name="code"/>
                         <field name="transsmart_id"/>
                         <field name="description"/>
-                        <field name="pre_book"/>
                     </group>
                 </form>
             </field>

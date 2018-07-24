@@ -217,7 +217,7 @@ class StockPicking(models.Model):
         )
         r = self.env['delivery.transsmart.config.settings'].\
             get_transsmart_service().send(
-                '/Rates', params={'prebooking': 1, 'getrates': 0},
+                '/Rates', params={'getrates': 0},
                 payload=document
             )
         if len(r):
